@@ -1,30 +1,40 @@
 <template>
   <header>
-    <!-- <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
+    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
 
-    <div class="wrapper">
+    <!-- <div class="wrapper">
       <HelloWorld msg="This is the first application of Vue Js" />
-    </div>
-      <HomeVue />
-      <HomeVue /> -->
-      <CounterVue/>
-  
+    </div> -->
+      <!-- <HomeVue /> -->
+      <!-- <HomeVue /> -->
+      <!-- <CounterVue/> -->
+      <!-- <HomeVue /> -->
+      <!-- <ParentVue /> -->
+      <!-- <ClassBindingVue /> -->
+      <ModifiersVue />
   </header>
   
 </template>
 
 <script>
+import ClassBindingVue from './components/ClassBinding.vue';
 import CounterVue from './components/Counter.vue';
 // import HelloWorld from './components/HelloWorld.vue';
 import HomeVue from './components/Home.vue';
-
+import ModifiersVue from './components/icons/Modifiers.vue';
+import ParentVue from './components/Parent.vue';
 
 export default {
   name : "App",
   components : {
     // HelloWorld,
     // HomeVue,
-    CounterVue
+    // CounterVue,
+    HomeVue,
+    ParentVue,
+    ClassBindingVue,
+    ModifiersVue
+    
   }
 }
 </script>>
