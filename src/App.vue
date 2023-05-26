@@ -11,7 +11,20 @@
       <!-- <HomeVue /> -->
       <!-- <ParentVue /> -->
       <!-- <ClassBindingVue /> -->
-      <ModifiersVue />
+      <!-- <ModifiersVue /> -->
+      <!-- <TodoAppVue /> -->
+      <!-- <WatchersVue /> -->
+      <!-- <SlotsVue /> -->
+      <!-- <DynamicVue /> -->
+      <!-- <TeleportVue /> -->
+      <!-- <CreatedVue /> -->
+      <!-- <MountVue /> -->
+      <!-- <UpdateVue /> -->
+
+
+      <!-- <Ref_ReactiveVue /> -->
+      <!-- <watcherVue /> -->
+      <TemplateRefVue />
   </header>
   
 </template>
@@ -19,21 +32,45 @@
 <script>
 import ClassBindingVue from './components/ClassBinding.vue';
 import CounterVue from './components/Counter.vue';
-// import HelloWorld from './components/HelloWorld.vue';
+import CreatedVue from './components/Created.vue';
+import DynamicVue from './components/Dynamic.vue';
+import HelloWorld from './components/HelloWorld.vue';
 import HomeVue from './components/Home.vue';
-import ModifiersVue from './components/icons/Modifiers.vue';
+import ModifiersVue from './components/Modifiers.vue';
+import MountVue from './components/Mount.vue';
 import ParentVue from './components/Parent.vue';
+import Ref_ReactiveVue from './components/Ref_Reactive.vue';
+import SlotsVue from './components/Slots.vue';
+import TeleportVue from './components/Teleport.vue';
+import TemplateRefVue from './components/TemplateRef.vue';
+import TodoAppVue from './components/TodoApp.vue';
+import UpdateVue from './components/Update.vue';
+import watcherVue from './components/watcher.vue';
+import WatchersVue from './components/Watchers.vue';
 
 export default {
   name : "App",
   components : {
-    // HelloWorld,
-    // HomeVue,
-    // CounterVue,
+    HelloWorld,
+    HomeVue,
+    CounterVue,
     HomeVue,
     ParentVue,
     ClassBindingVue,
-    ModifiersVue
+    ModifiersVue,
+    TodoAppVue,
+    WatchersVue,
+    SlotsVue,
+    DynamicVue,
+    TeleportVue,
+    CreatedVue,
+    MountVue,
+    UpdateVue,
+
+    // composition API
+    Ref_ReactiveVue,
+    watcherVue,
+    TemplateRefVue
     
   }
 }
